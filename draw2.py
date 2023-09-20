@@ -1,0 +1,17 @@
+import turtle as t
+t.circle(100)
+t.penup()
+t.goto(-100,200)
+print(t.pos())
+t.pendown()
+pos1 = t.pos()
+print(pos1)
+
+t.forward(200)
+t.right(90)
+t.forward(200)
+t.right(90)
+t.forward(200)
+t.right(90)
+t.forward(200)
+t.exitonclick()
